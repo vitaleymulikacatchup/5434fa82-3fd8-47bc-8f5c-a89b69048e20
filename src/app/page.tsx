@@ -118,7 +118,7 @@ export default function LandingPage() {
           description="Our talented team brings together diverse expertise in design, strategy, and brand development to create exceptional work."
           tag="Our Team"
           tagIcon={Users}
-          tagAnimation="entrance-slide"
+          tagAnimation="blur-reveal"
           members={[
             {
               id: "team-1",              name: "Alexandra Chen",              role: "Creative Director",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kwp6yk",              imageAlt: "Alexandra Chen, Creative Director"
