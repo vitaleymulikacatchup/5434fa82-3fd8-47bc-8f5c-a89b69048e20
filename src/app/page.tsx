@@ -56,7 +56,7 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk",              imageAlt: "Modern design studio workspace"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk&_wi=1",              imageAlt: "Modern design studio workspace"
             },
             {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=27bq23",              imageAlt: "Creative design portfolio showcase"
@@ -91,13 +91,13 @@ export default function LandingPage() {
           tagAnimation="blur-reveal"
           features={[
             {
-              id: "branding-project",              title: "Brand Identity System",              description: "Complete visual identity including logo, color palette, typography system, and brand guidelines for a luxury lifestyle brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu",              imageAlt: "Branding project showcase"
+              id: "branding-project",              title: "Brand Identity System",              description: "Complete visual identity including logo, color palette, typography system, and brand guidelines for a luxury lifestyle brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu&_wi=1",              imageAlt: "Branding project showcase"
             },
             {
-              id: "web-project",              title: "E-Commerce Platform",              description: "User-centered web design for a modern e-commerce platform emphasizing intuitive navigation and conversion optimization.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v",              imageAlt: "Web design project"
+              id: "web-project",              title: "E-Commerce Platform",              description: "User-centered web design for a modern e-commerce platform emphasizing intuitive navigation and conversion optimization.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v&_wi=1",              imageAlt: "Web design project"
             },
             {
-              id: "packaging-project",              title: "Luxury Packaging Design",              description: "Premium product packaging design combining sustainable materials with sophisticated aesthetics for an upscale beauty brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u",              imageAlt: "Packaging design project"
+              id: "packaging-project",              title: "Luxury Packaging Design",              description: "Premium product packaging design combining sustainable materials with sophisticated aesthetics for an upscale beauty brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u&_wi=1",              imageAlt: "Packaging design project"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -177,13 +177,13 @@ export default function LandingPage() {
           tagAnimation="entrance-slide"
           products={[
             {
-              id: "service-1",              name: "Brand Strategy",              variant: "Foundation",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu",              imageAlt: "Brand Strategy Service"
+              id: "service-1",              name: "Brand Strategy",              variant: "Foundation",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu&_wi=2",              imageAlt: "Brand Strategy Service"
             },
             {
-              id: "service-2",              name: "Visual Identity",              variant: "Premium",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v",              imageAlt: "Visual Identity Service"
+              id: "service-2",              name: "Visual Identity",              variant: "Premium",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v&_wi=2",              imageAlt: "Visual Identity Service"
             },
             {
-              id: "service-3",              name: "Digital Design",              variant: "Full-Stack",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u",              imageAlt: "Digital Design Service"
+              id: "service-3",              name: "Digital Design",              variant: "Full-Stack",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u&_wi=2",              imageAlt: "Digital Design Service"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -246,7 +246,7 @@ export default function LandingPage() {
             required: true
           }}
           useInvertedBackground={true}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk&_wi=2"
           imageAlt="Creative studio collaboration"
           mediaAnimation="blur-reveal"
           mediaPosition="right"
