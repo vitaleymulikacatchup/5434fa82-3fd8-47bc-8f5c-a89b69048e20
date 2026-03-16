@@ -46,6 +46,7 @@ export default function LandingPage() {
         <HeroSplitDualMedia
           title="Exceptional Design, Timeless Impact"
           description="Ball is a contemporary design studio crafting innovative visual solutions for brands that dare to stand out. We merge strategy, creativity, and precision to deliver work that resonates."
+          background={{ variant: "plain" }}
           tag="Creative Studio"
           tagIcon={Sparkles}
           tagAnimation="blur-reveal"
@@ -53,10 +54,10 @@ export default function LandingPage() {
             { text: "View Our Work", href: "#features" },
             { text: "Start a Project", href: "#contact" }
           ]}
-          buttonAnimation="slide-up"
+          buttonAnimation="blur-reveal"
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk&_wi=1",              imageAlt: "Modern design studio workspace"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk",              imageAlt: "Modern design studio workspace"
             },
             {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=27bq23",              imageAlt: "Creative design portfolio showcase"
@@ -72,12 +73,12 @@ export default function LandingPage() {
         <TextAbout
           tag="Our Story"
           tagIcon={Award}
-          tagAnimation="entrance-slide"
+          tagAnimation="blur-reveal"
           title="We Design for Purpose, Not Just Aesthetics"
           buttons={[
             { text: "Learn More", href: "#team" }
           ]}
-          buttonAnimation="slide-up"
+          buttonAnimation="blur-reveal"
           useInvertedBackground={false}
         />
       </div>
@@ -91,13 +92,13 @@ export default function LandingPage() {
           tagAnimation="blur-reveal"
           features={[
             {
-              id: "branding-project",              title: "Brand Identity System",              description: "Complete visual identity including logo, color palette, typography system, and brand guidelines for a luxury lifestyle brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu&_wi=1",              imageAlt: "Branding project showcase"
+              id: "branding-project",              title: "Brand Identity System",              description: "Complete visual identity including logo, color palette, typography system, and brand guidelines for a luxury lifestyle brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu",              imageAlt: "Branding project showcase"
             },
             {
-              id: "web-project",              title: "E-Commerce Platform",              description: "User-centered web design for a modern e-commerce platform emphasizing intuitive navigation and conversion optimization.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v&_wi=1",              imageAlt: "Web design project"
+              id: "web-project",              title: "E-Commerce Platform",              description: "User-centered web design for a modern e-commerce platform emphasizing intuitive navigation and conversion optimization.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v",              imageAlt: "Web design project"
             },
             {
-              id: "packaging-project",              title: "Luxury Packaging Design",              description: "Premium product packaging design combining sustainable materials with sophisticated aesthetics for an upscale beauty brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u&_wi=1",              imageAlt: "Packaging design project"
+              id: "packaging-project",              title: "Luxury Packaging Design",              description: "Premium product packaging design combining sustainable materials with sophisticated aesthetics for an upscale beauty brand.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u",              imageAlt: "Packaging design project"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -107,7 +108,7 @@ export default function LandingPage() {
           buttons={[
             { text: "View All Projects", href: "#" }
           ]}
-          buttonAnimation="slide-up"
+          buttonAnimation="blur-reveal"
         />
       </div>
 
@@ -161,7 +162,6 @@ export default function LandingPage() {
               id: "testimonial-4",              name: "Lisa Wong",              role: "Brand Manager",              testimonial: "Ball's ability to merge sustainability with stunning design is remarkable. They created a brand identity that truly reflects our values while resonating with our audience.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ydtk4t",              imageAlt: "Lisa Wong"
             }
           ]}
-          gridVariant="two-columns-alternating-heights"
           animationType="scale-rotate"
           textboxLayout="default"
           useInvertedBackground={true}
@@ -174,16 +174,16 @@ export default function LandingPage() {
           description="Comprehensive design solutions tailored to elevate your brand and drive business growth across all touchpoints."
           tag="Services"
           tagIcon={Briefcase}
-          tagAnimation="entrance-slide"
+          tagAnimation="blur-reveal"
           products={[
             {
-              id: "service-1",              name: "Brand Strategy",              variant: "Foundation",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu&_wi=2",              imageAlt: "Brand Strategy Service"
+              id: "service-1",              name: "Brand Strategy",              variant: "Foundation",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ikbeu",              imageAlt: "Brand Strategy Service"
             },
             {
-              id: "service-2",              name: "Visual Identity",              variant: "Premium",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v&_wi=2",              imageAlt: "Visual Identity Service"
+              id: "service-2",              name: "Visual Identity",              variant: "Premium",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6rm03v",              imageAlt: "Visual Identity Service"
             },
             {
-              id: "service-3",              name: "Digital Design",              variant: "Full-Stack",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u&_wi=2",              imageAlt: "Digital Design Service"
+              id: "service-3",              name: "Digital Design",              variant: "Full-Stack",              price: "Custom",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g4io8u",              imageAlt: "Digital Design Service"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -193,7 +193,7 @@ export default function LandingPage() {
           buttons={[
             { text: "Explore All Services", href: "#" }
           ]}
-          buttonAnimation="slide-up"
+          buttonAnimation="blur-reveal"
         />
       </div>
 
@@ -221,12 +221,12 @@ export default function LandingPage() {
               id: "faq-6",              title: "How do we get started?",              content: "Contact us through our website or email. We'll schedule a discovery call to understand your needs, goals, and vision. From there, we'll propose a tailored approach and timeline."
             }
           ]}
-          faqsAnimation="entrance-slide"
+          faqsAnimation="blur-reveal"
           useInvertedBackground={false}
           buttons={[
             { text: "Get in Touch", href: "#contact" }
           ]}
-          buttonAnimation="slide-up"
+          buttonAnimation="blur-reveal"
           textPosition="left"
         />
       </div>
@@ -246,7 +246,7 @@ export default function LandingPage() {
             required: true
           }}
           useInvertedBackground={true}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk&_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=l91xdk"
           imageAlt="Creative studio collaboration"
           mediaAnimation="blur-reveal"
           mediaPosition="right"
